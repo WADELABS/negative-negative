@@ -21,12 +21,30 @@ graph TD
     D --> A
 ```
 
+## 🚀 Installation
+
+### From Source
+```bash
+# Clone the repository
+git clone https://github.com/WADELABS/negative-space.git
+cd negative-space
+
+# Install in development mode
+pip install -e .
+```
+
+### From PyPI (Coming Soon)
+```bash
+pip install negative-space
+```
+
 ## 🛰️ The "Now": Mapping Architectural Voids
 The following snippet demonstrates use of the `VoidAgent` to perform a rigorous assessment of the gap between a local environment and a production-ready Kubernetes deployment.
 
+**Note:** The examples below assume the package has been installed using `pip install -e .` or `pip install negative-space`.
+
 ```python
-from negative_space.core.agent import VoidAgent
-from negative_space.core.core import GapCriticality
+from negative_space import VoidAgent, GapCriticality
 
 # Initialize the observer
 agent = VoidAgent(name="EpistemicMapper", rigor=0.95)
@@ -40,6 +58,18 @@ report = await agent.map_voids(reality_a, objective_b)
 
 critical_voids = [g for g in report['critical_findings'] if g['criticality'] == "BLOCKING"]
 print(f"Mapped {len(critical_voids)} blocking voids in the production path.")
+```
+
+## 🎯 Running Examples
+
+After installation, you can run the example demos:
+
+```bash
+# Basic demo
+python examples/demo.py
+
+# Advanced portfolio demo
+python examples/portfolio_demo.py
 ```
 
 ## 📊 Strategic Metrics
