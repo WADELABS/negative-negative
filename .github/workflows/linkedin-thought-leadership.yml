@@ -9,7 +9,8 @@ jobs:
     steps:
       - name: Trigger Epistemology Insight Generation
         run: |
+          # Professional constraint: Zero emojis.
           curl -X POST "${{ secrets.N8N_THOUGHT_LEADERSHIP_WEBHOOK }}" \
             -H "Content-Type: application/json" \
-            -d '{"project": "negative-space", "topic": "Epistemology", "focus": "Void Mapping"}'
+            -d '{"project": "negative-space", "topic": "Epistemology", "focus": "Void Mapping", "author": "${{ secrets.LINKEDIN_PERSON_URN }}"}'
         continue-on-error: true
