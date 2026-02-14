@@ -4,7 +4,9 @@ from datetime import datetime
 import sys
 import os
 
-# Add project root to path for local imports
+# Add project root to path for running demos without package installation
+# If you've installed the package via `pip install -e .`, you can remove these lines
+# and import directly: `from void.interpolation.engine import VoidInterpolator`
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Internal Imports

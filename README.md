@@ -41,6 +41,8 @@ pip install negative-space
 ## 🛰️ The "Now": Mapping Architectural Voids
 The following snippet demonstrates use of the `VoidAgent` to perform a rigorous assessment of the gap between a local environment and a production-ready Kubernetes deployment.
 
+**Note:** The examples below assume the package has been installed using `pip install -e .` or `pip install negative-space`.
+
 ```python
 from negative_space import VoidAgent, GapCriticality
 
