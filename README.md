@@ -1,16 +1,14 @@
-# Negative Space: Epistemological Substrate 🌌
+# Case File: Negative Space (Epistemological Substrate) 🌌
 
-> **"The map is not the territory, but the territory is defined by what the map omits."**
+> **"My friend had a bike in three crates and a manual for the wrong year. He was trying to build a puzzle without knowing what the pieces looked like. I realized that if you know the shape of the engine and the shape of the frame, the 'missing' bracket already exists in the math between them. So I built Negative Space."**
 
-Negative Space is a high-fidelity **Epistemological Substrate** designed for the study and quantification of "Computational Doubt." It moves beyond simple knowledge retrieval and into the rigorous mapping of the **Unknown**.
-
-## 🏛️ The Philosophy: Quantifying the Abyss
-Negative Space focuses on the "Inference Gap"—the distance between what an AI model claims and what the underlying reality-stream supports. In the Wadelabs ecosystem, this project serves as the research engine that identifies where the "Scientific Method" needs to be applied most aggressively.
+## 🏛️ FORENSIC SUMMARY: Quantifying the Abyss
+Negative Space is a high-fidelity **Epistemological Substrate** designed for the study and quantification of "Computational Doubt." It moves beyond simple knowledge retrieval and into the rigorous mapping of the **Unknown**. It is the search for the 'Missing Bracket' in complex data-streams.
 
 ### 🧠 Core Substrate Pillars
 1. **Ontological Mapping**: Identifying the boundaries of a model's knowledge graph.
 2. **Doubt Heuristics**: Calculating the "Epistemological Uncertainty" (EU) of any given dataset or response.
-3. **Inference Gap Detection**: Pinpointing the exact moment where logic becomes untethered from semantic grounding.
+3. **Mechanical & Electrical Inference**: Predicting the 'Negative Space' where physical or logical components *must* exist based on surrounding constraints.
 
 ## ⚙️ Architecture
 - **`src/ontology.py`**: Mapping semantic density and connectivity.
