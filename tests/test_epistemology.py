@@ -4,6 +4,12 @@ Verification of Epistemological Uncertainty (EU) and Ontological Mapping.
 """
 
 import unittest
+import sys
+import os
+
+# Ensure the 'src' directory is in the path for the IDE and test runner
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.ontology import SemanticMapper
 from src.doubt import DoubtCalculator
 

@@ -4,6 +4,12 @@ Verification of mechanical linkage and 'Missing Bracket' inference.
 """
 
 import unittest
+import sys
+import os
+
+# Ensure the 'src' directory is in the path for the IDE and test runner
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.constraints.mechanical_linkage import MechanicalLinkage
 
 class TestMechanical(unittest.TestCase):
