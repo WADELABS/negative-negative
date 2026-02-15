@@ -35,5 +35,5 @@ class DoubtCalculator:
         return {
             "eu_score": eu_score,
             "integrity_level": "STABLE" if eu_score < 0.3 else "UNSTABLE",
-            "action": "PROCEED" if eu_score < 0.5 else "TRIGGER_SCIENTIFIC_METHOD"
+            "action": "PROCEED" if eu_score < 0.4 else "TRIGGER_SCIENTIFIC_METHOD"
         }
